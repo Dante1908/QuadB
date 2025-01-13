@@ -28,7 +28,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/QuadB-App.git
+git clone https://github.com/Dante1908/QuadB.git
 cd QuadB-App
 Open the project in Android Studio.
 
@@ -53,22 +53,7 @@ The app will fetch results from the TVMaze API and display them as clickable car
 View Show Details:
 
 Click on a show card to open its official website in your browser.
-Folder Structure
-graphql
-Copy code
-QuadB-App/
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/quadb/
-│   │   │   │   ├── MainActivity.kt          # Entry point of the app
-│   │   │   │   ├── screens/                # UI components
-│   │   │   │   ├── Data/                   # API service and models
-│   │   │   │   ├── ViewModel/              # ViewModel and business logic
-│   │   │   ├── res/                        # UI resources (layouts, images, etc.)
-│   │   ├── AndroidManifest.xml             # App permissions and configuration
-├── build.gradle                            # Project-level Gradle configuration
-├── README.md                               # Documentation
+
 API Reference
 This project uses the TVMaze API for fetching TV show data.
 
